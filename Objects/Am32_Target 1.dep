@@ -1,0 +1,863 @@
+Dependencies for Project 'Am32', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\CMSIS\CM4\device_support\startup\mdk\startup_at32f415.s)(0x62FF056E)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto -c-Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"AT32F415K8U7_4 SETA 1"-o ./objects/startup_at32f415.o)
+F (.\CMSIS\CM4\device_support\system_at32f415.c)(0x62FEFD54)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/system_at32f415.o -MD)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\Src\AT32F4xx_OPT.s)(0x63BDC045)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto -c-Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"AT32F415K8U7_4 SETA 1"-o ./objects/at32f4xx_opt.o)
+F (.\Src\main.c)(0x63BEE355)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MD)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035B094)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6035B08A)
+I (Inc\main.h)(0x634AE3F1)
+I (Inc\eeprom.h)(0x62194F80)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035B090)
+F (.\Src\eeprom.c)(0x634AE645)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/eeprom.o -MD)
+I (Inc\eeprom.h)(0x62194F80)
+I (Inc\main.h)(0x634AE3F1)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035B090)
+F (.\Src\at32f415_it.c)(0x634AE498)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_it.o -MD)
+I (Inc\at32f415_it.h)(0x634C02A8)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_adc.c)(0x62FEFD60)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_adc.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_can.c)(0x62FEFD60)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_can.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_cmp.c)(0x62FEFD60)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_cmp.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_crc.c)(0x62FEFD61)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_crc.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_crm.c)(0x62FEFD61)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_crm.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_debug.c)(0x62FEFD62)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_debug.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_dma.c)(0x62FEFD62)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_dma.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_ertc.c)(0x62FEFD62)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_ertc.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_exint.c)(0x62FEFD63)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_exint.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_flash.c)(0x62FEFD63)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_flash.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_gpio.c)(0x62FEFD64)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_gpio.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_i2c.c)(0x62FEFD64)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_i2c.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_misc.c)(0x62FEFD64)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_misc.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_pwc.c)(0x62FEFD65)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_pwc.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_sdio.c)(0x62FEFD65)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_sdio.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_spi.c)(0x62FEFD66)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_spi.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_tmr.c)(0x62FEFD66)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_tmr.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_usart.c)(0x62FEFD67)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_usart.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_usb.c)(0x62FEFD67)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_usb.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_wdt.c)(0x62FEFD67)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_wdt.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
+F (.\AT32F4xx_StdPeriph_Driver\src\at32f415_wwdt.c)(0x62FEFD68)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/CM4/core_support -I ./CMSIS/CM4/device_support -I ./AT32F4xx_StdPeriph_Driver/inc -I ./Inc-IC:/Users/alkaz/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="536" -DAT32F415K8U7_4 -DAT32F415K8U7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f415_wwdt.o -MD)
+I (CMSIS\CM4\device_support\at32f415_conf.h)(0x62FEFD53)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crm.h)(0x62FEFD58)
+I (CMSIS\CM4\device_support\at32f415.h)(0x62FEFD53)
+I (CMSIS\CM4\core_support\core_cm4.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (CMSIS\CM4\core_support\cmsis_version.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_compiler.h)(0x62FEFD43)
+I (CMSIS\CM4\core_support\cmsis_armclang.h)(0x62FEFD43)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602AE43E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035B084)
+I (CMSIS\CM4\core_support\mpu_armv7.h)(0x62FEFD43)
+I (CMSIS\CM4\device_support\system_at32f415.h)(0x62FEFD54)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_def.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_cmp.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_tmr.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_ertc.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_gpio.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_i2c.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usart.h)(0x62FEFD5E)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_pwc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_can.h)(0x62FEFD57)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_adc.h)(0x62FEFD56)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_spi.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_dma.h)(0x62FEFD59)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_debug.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_flash.h)(0x62FEFD5B)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_crc.h)(0x62FEFD58)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wwdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_wdt.h)(0x62FEFD5F)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_exint.h)(0x62FEFD5A)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_sdio.h)(0x62FEFD5D)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_misc.h)(0x62FEFD5C)
+I (AT32F4xx_StdPeriph_Driver\inc\at32f415_usb.h)(0x62FEFD5E)
